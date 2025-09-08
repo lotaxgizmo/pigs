@@ -26,7 +26,9 @@ function Hero() {
         <Socials/>
        </div>
 
-        <img src={buybtn} alt="" className='w-[70vw] lg:w-[25vw]' />
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src={buybtn} alt="Buy Now" className='w-[70vw] lg:w-[25vw] hover:scale-105 active:scale-95 transition-all duration-300 cursor-pointer' />
+        </a>
         </div>
 
         <div className="right lg:w-[10%] hidden lg:flex flex-col justify-center items-start mt-[7vw] "> 
