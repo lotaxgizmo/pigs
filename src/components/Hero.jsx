@@ -3,7 +3,7 @@ import imageguy from '../assets/imageguy.png'
 import herotext from '../assets/herotext.png'
 import subtext from '../assets/subtext.png'
 import buybtn from '../assets/buybtn.png'
-import policelight from '../assets/policelight.png'
+import policelight from '../assets/policelight.webp'
 import Socials from './props/Socials'
 
 

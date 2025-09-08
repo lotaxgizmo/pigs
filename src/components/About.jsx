@@ -1,5 +1,5 @@
 import React from 'react'
-import jail from '../assets/jail.png'
+import jail from '../assets/jail.webp'
 import abouttext from '../assets/abouttext.png'
 import aboutext from '../assets/aboutext.png'
 import aboutpic from '../assets/aboutpic.webp'
