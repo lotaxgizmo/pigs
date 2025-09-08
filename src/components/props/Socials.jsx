@@ -6,7 +6,7 @@ import tel from '../../assets/tel.png'
 
 function socials() {
 
-    const socialsclass = "w-[17vw] lg:w-[5vw] "
+    const socialsclass = "w-[17vw] lg:w-[5vw] hover:scale-110 active:scale-90 transition-all duration-300"
 
   return (
     <div className='flex flex-row lg:flex-col justify-center items-center lg:mb-10 mb-4 gap-4'>

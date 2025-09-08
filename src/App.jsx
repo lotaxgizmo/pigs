@@ -1,24 +1,20 @@
 import React from 'react'
-import Hero from './components/Hero'
-import About from './components/About'
-import Tokenomics from './components/Tokenomics'
-import brickslider from './assets/brickslider.png'
-import twinliders from './assets/twinliders.png'
-import Secondabout from './components/Secondabout'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Page1 from './components/Page1' 
+import Page2 from './components/Page2' 
 
 function App() {
   return (
-    <div className='app overflow-x-clip'>
-      <Hero/>
-      <img src={brickslider} alt="" className='lg:w-[100vw] w-[200vw] max-w-none -mt-20 lg:-mt-50' />
+    <Router>
 
+      <div className='app overflow-x-clip'> 
+        <Routes>
+          <Route path="/" element={<Page1 />} />
+          <Route path="/page2" element={<Page2 />} />
+        </Routes>
+      </div>
       
-      <About/>
-      <Secondabout/>
-      <img src={twinliders} alt="" className='lg:w-[100vw] w-[200vw] max-w-none -mt-20 lg:-mt-50' />
-      
-      <Tokenomics/>
-    </div>
+    </Router>
   )
 }
 

@@ -3,14 +3,17 @@ import imageguy from '../assets/imageguy.png'
 import herotext from '../assets/herotext.png'
 import subtext from '../assets/subtext.png'
 import buybtn from '../assets/buybtn.png'
+import policelight from '../assets/policelight.png'
 import Socials from './props/Socials'
+
 
 function Hero() {
   return (
     <div className='flex lg:flex-row flex-col-reverse justify-center items-start '>
 
-        <div className="left lg:w-[50%] w-full flex justify-center items-center self-center z-5">
-        <img src={imageguy} alt="" className='w-[60vw] lg:w-[40vw]' />
+        <div className="left lg:w-[50%] w-full flex justify-center items-center self-center z-5 relative">
+        <img src={imageguy} alt="" className='w-[60vw] lg:w-[40vw] z-2' />
+        <img src={policelight} alt="" className='w-[90vw] lg:w-[80vw] absolute top-0s ' />
         </div>
 
 

@@ -1,7 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/cheerful-cupcake');
 @import "tailwindcss";
 
 body{
   margin: 0;
+  font-family: 'Cheerful Cupcake';
 }
 
 .flexy{
