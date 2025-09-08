@@ -1,6 +1,6 @@
 import React from 'react'
-import johndoe from '../../assets/johndoe.png'
-import anonymous from '../../assets/anonymous.png'
+import johndoe from '../../assets/johndoe.webp'
+import anonymous from '../../assets/anonymous.webp'
 import arrestedlabel from '../../assets/arrestedlabel.png'
 
 function Arrested() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import imageguy from '../assets/imageguy.png'
+import imageguy from '../assets/imageguy.webp'
 import herotext from '../assets/herotext.png'
 import subtext from '../assets/subtext.png'
 import buybtn from '../assets/buybtn.png'
