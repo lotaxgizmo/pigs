@@ -9,7 +9,7 @@ function Header() {
     { name: "HOME", href: "/" },
     { name: "ABOUT", href: "/about" },
     { name: "TOKENOMICS", href: "/#tokenomics" },
-    { name: "ARRESTED", href: "/#arrested" },
+    { name: "ARRESTED", href: "/arrested" },
     { name: "CONTACT", href: "/#contact" }
   ];
 
