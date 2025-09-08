@@ -6,7 +6,7 @@ import brickslider from '../assets/brickslider.webp'
 import twinliders from '../assets/twinliders.png'
 import Secondabout from './Secondabout'
 import Footer from './Footer'
-
+import Page2 from './Page2'
 
 function Page1() {
   return (
@@ -21,6 +21,7 @@ function Page1() {
       <img src={twinliders} alt="" className='lg:w-[100vw] w-[200vw] max-w-none -mt-20 lg:-mt-50' />
 
       <Tokenomics/>
+      <Page2/>
       <Footer/>
     </div>
   )
