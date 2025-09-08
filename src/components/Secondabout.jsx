@@ -1,6 +1,6 @@
 import React from 'react'
 import secondabouttext from '../assets/secondabouttext.png'
-import chasepolice from '../assets/chasepolice.png'
+import chasepolice from '../assets/chasepolice.webp'
 
 function Secondabout() {
   return (
