@@ -2,7 +2,7 @@ import React from 'react'
 import liquidity from '../assets/liquidity.png'
 import marketcap from '../assets/marketcap.png'
 import tax from '../assets/tax.png'
-import piggyboxers from '../assets/piggyboxers.png'
+import piggyboxers from '../assets/piggyboxers.webp'
 import tokenomicstext from '../assets/tokenomicstext.png'
 import tokedeets from '../assets/tokedeets.png'
 
