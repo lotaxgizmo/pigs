@@ -6,7 +6,7 @@ import aboutpic from '../assets/aboutpic.png'
 
 function About() {
   return (
-<div className="about flex flex-col">
+<div id='about' className="about flex flex-col">
 
 <div className='flex flex-row justify-center items-center'>
 

@@ -7,7 +7,7 @@ import footertelegram from '../assets/footertelegram.png'
 function Footer() {
     const footericonclass = "w-[20vw] lg:w-[15vw] hover:scale-110 active:scale-90 transition-all duration-300"
   return (
-    <div className=' flex flex-col justify-center items-center'>
+    <div id='contact' className=' flex flex-col justify-center items-center'>
         <img src={community} alt="" className='w-[90vw] lg:w-[80vw]'/>
 
         <div className="lowdiv flex flex-row justify-center items-center gap-5 lg:gap-20">

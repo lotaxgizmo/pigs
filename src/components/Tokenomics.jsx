@@ -8,7 +8,7 @@ import tokedeets from '../assets/tokedeets.png'
 
 function Tokenomics() {
   return (
-    <div className='flex flex-col justify-center items-center pb-10 pt-10'>
+    <div id='tokenomics' className='flex flex-col justify-center items-center pb-10 pt-10'>
         <img src={tokenomicstext} alt="" className='w-[100vw] lg:w-[100vw]' />
       
       <div className="dva flex flex-col lg:flex-row justify-center items-center">
