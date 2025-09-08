@@ -15,7 +15,11 @@ function About() {
 </div>
 
 <div className="right w-[85vw] lg:w-[70vw] flex flex-col">
-<img src={abouttext} alt="" />
+<div className="texty flex justify-center items-center relative pr-4">
+
+        <img src={abouttext} alt="" className='w-[90vw] lg:w-[70vw] self-start hidden lg:block' />
+        <p className='text-[5vw] lg:text-[2vw] text-center lg:leading-10 leading-5 text-whited lg:text-black mb-4 lg:absolute lg:w-[50vw] w-[90vw]  bg-white lg:bg-[#00000000]  p-4 rounded-3xl'>lorem ipsum lorem lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+      </div>
 <img src={jail} alt="" />
 </div>
 

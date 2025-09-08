@@ -14,8 +14,8 @@ function Footer() {
             <img src={footertelegram} alt="" className={footericonclass}/>
             <img src={footerx} alt="" className={footericonclass}/>
         </div>
-
-        <img src={reserved} alt="" className='w-[90vw] lg:w-[70vw] m-5'/>
+        <p className='text-white text-[6.5vw] lg:text-[5vw] lg:leading-10 leading-5  m-5 mt-10'>© 2025 porke. All rights reserved</p>
+        {/* <img src={reserved} alt="" className='w-[90vw] lg:w-[70vw] m-5'/> */}
     </div>
   )
 }

@@ -16,12 +16,11 @@ function Hero() {
         <img src={policelight} alt="" className='w-[90vw] lg:w-[80vw] absolute top-0s ' />
         </div>
 
-
-
-        <div className="right lg:w-[40%] w-full flex flex-col justify-center items-start m-4 text-white">
-          <h1 className='chocolade lg:text-[8vw] text-[18vw] lg:leading-24 leading-15'>PORKY <br/>THE <br/>POLICEMAN</h1>
+        <div className="right lg:w-[40%] w-full flex flex-col justify-center items-start m-4 text-white lg:mr-10">
+          <h1 className='chocolade lg:text-[8vw] text-[18vw] lg:leading-24 leading-15 '>PORKY <br/>THE <br/>POLICEMAN</h1>
         {/* <img src={herotext} alt="" className='w-[90vw] lg:w-[45vw] lg:mt-[5vw]' /> */}
-        <img src={subtext} alt="" className='w-[90vw] lg:w-[40vw] lg:mb-10 mb-4' />
+        <p className='text-[6vw] lg:text-[2.5vw] lg:leading-10 leading-5 mb-4'>Your Everyday run of the mill and dutiful pig policeman</p>
+        {/* <img src={subtext} alt="" className='w-[90vw] lg:w-[40vw] lg:mb-10 mb-4' /> */}
 
        <div className="socials flex lg:hidden">
         <Socials/>
