@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/cheerful-cupcake');
+@import url('https://fonts.cdnfonts.com/css/ds-chocolade');
 @import "tailwindcss";
 
 body{
@@ -12,4 +13,8 @@ body{
 
 .app{
   background-image: url("/src/assets/background.webp");
+}
+
+.chocolade{
+  font-family: 'DS Chocolade', sans-serif;
 }
