@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body{
+  margin: 0;
+}
+
+.flexy{
+  @apply flex flex-col justify-center items-center
+}
+
+.app{
+  background-image: url("/src/assets/background.png");
+}
