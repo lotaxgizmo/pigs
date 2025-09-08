@@ -11,6 +11,7 @@ function Arrested() {
     { name: "?????", image: anonymous },
     { name: "?????", image: anonymous },
     { name: "?????", image: anonymous },
+    { name: "?????", image: anonymous },
   ];
 
   return (
