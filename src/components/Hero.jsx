@@ -31,9 +31,9 @@ function Hero() {
       </div>
 
       <div className="right lg:w-[40%] w-full flex flex-col justify-center items-start m-4 text-white lg:mr-10">
-        <h1 className='chocolade lg:text-[8vw] text-[18vw] lg:leading-24 leading-15 '>PORKY <br />THE <br />POLICEMAN</h1>
+        <h1 className='chocolade lg:text-[8vw] text-[18vw] lg:leading-[6vw] leading-15 '>$POLICE <br />THE <br />CRYPTO COP</h1>
         {/* <img src={herotext} alt="" className='w-[90vw] lg:w-[45vw] lg:mt-[5vw]' /> */}
-        <p className='text-[6vw] lg:text-[2.5vw] lg:leading-10 leading-5 mb-4'>Your Everyday run of the mill and dutiful pig policeman</p>
+        <p className='text-[6vw] lg:text-[2.5vw] lg:leading-10 leading-5 mb-4'>Laugh, Invest, and Patrol the Crypto Streets with POLICE!</p>
         {/* <img src={subtext} alt="" className='w-[90vw] lg:w-[40vw] lg:mb-10 mb-4' /> */}
 
         <div className="socials flex lg:hidden">
@@ -54,7 +54,7 @@ function Hero() {
 
         </div>
 
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="https://dex.com" target="_blank" rel="noopener noreferrer">
           <img src={buybtn} alt="Buy Now" className='w-[70vw] lg:w-[25vw] hover:scale-105 active:scale-95 transition-all duration-300 cursor-pointer' />
         </a>
       </div>

@@ -7,13 +7,15 @@ import twinliders from '../assets/twinliders.png'
 import Secondabout from './Secondabout'
 import Footer from './Footer'
 import Page2 from './Page2'
+import Musicpart from './Musicpart'
 
 function Page1() {
   return (
     <div>
+       <Musicpart/>
         <Hero/>
 
-      <img src={brickslider} alt="" className='lg:w-[100vw] w-[200vw] max-w-none -mt-20 lg:-mt-50' />
+      <img src={brickslider} alt="" className='lg:w-[100vw] w-[200vw] max-w-none -mt-20 lg:-mt-[3vw]' />
 
       <About/>
       <Secondabout/>
